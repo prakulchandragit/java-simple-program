@@ -1,2 +1,8 @@
-# java-simple-program
-This repo contains basic programming covering the basics of looping , flow control , nested loops , arrays etc. 
+# java-simple-programs
+This repo contains basic programming covering the basics of-
+• Looping
+• Flow Control 
+• Array 
+• Bubble Sort
+• Nested Loops 
+• Basic Output Questions 
