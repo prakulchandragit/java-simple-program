@@ -1,3 +1,6 @@
+//program to input a number and print the sum of its middle digits ex-
+//9845
+//=12
 import java.util.*;
 class middlenumbers 
 {
