@@ -29,13 +29,14 @@ public class dda {
         for (i = 0; i < m; i++) {
             for (j = 0; j < n; j++) {
                 System.out.print(A[i][j] + "\t");
-                System.out.print("");
+
             }
+            System.out.println("");
         }
     }
 
     public static void main(String args[]) {
-        dda ob = new dda(3, 2);
+        dda ob = new dda(2, 3);
         ob.input();
         ob.display();
 
