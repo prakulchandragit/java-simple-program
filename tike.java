@@ -1,10 +1,10 @@
 import java.util.*;
 
-public class bitches {
+public class tike {
     String wrd;
     int len;
 
-    bitches() // default constructor
+    tike() // default constructor
     {
         wrd = "";
         len = 0;
@@ -40,7 +40,7 @@ public class bitches {
     }
 
     public static void main(String args[]) {
-        bitches ob = new bitches();
+        tike ob = new tike();
         ob.acceptword();
         ob.display();
     }
