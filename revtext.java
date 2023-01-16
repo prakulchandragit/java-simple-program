@@ -22,7 +22,7 @@ public class revtext {
         StringTokenizer st = new StringTokenizer(txt);
         while (st.hasMoreTokens()) {
             w = st.nextToken();
-            rtxt = rtxt + revstr(w) + "";
+            rtxt = rtxt + revstr(w) + " ";
         }
 
     }
@@ -34,7 +34,7 @@ public class revtext {
     }
 
     public static void main(String args[]) {
-        revtext ob = new revtext("WAR MINED");
+        revtext ob = new revtext("why no space");
         ob.reverse();
         ob.display();
     }
