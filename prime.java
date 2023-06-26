@@ -1,5 +1,6 @@
 import java.util.*;
 
+// tocheck whether given number is prime or not
 class prime {
 
     public static void main(String args[]) {
