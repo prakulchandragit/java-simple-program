@@ -1,3 +1,4 @@
+//armstrong number program 
 class ArmNum {
     int n;
     int len;
