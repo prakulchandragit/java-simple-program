@@ -11,7 +11,7 @@ public class composite {
 
     int isComposite(int p) {
         int ctr = 0;
-        for (int i = 0; i <= p; i++) {
+        for (int i = 1; i <= p; i++) {
             if (p % i == 0) {
                 ctr++;
             }
@@ -22,32 +22,36 @@ public class composite {
             return 0;
     }
 
-    void fill()
-    {
-     for(int i = 0 ; i<m;i++)
-     {
-        for(int j = 0 ; j <n ; j++)
-        {
-            if(isComposite()==true)
-            {
-                arr[i][j]==num;
+    void fill() {
+        int i = 0, k = 0, a = 0, b = 0;
+        while (k < (m * n)) {
+            if (isComposite(i) == 1) {
+                arr[a][b] = i;
+                k++;
+                ++a;
+                if (a == m) {
+                    a = a % m;
+                    b++;
+                }
             }
+            i++;
+
         }
-     }   
     }
 
     void display() {
         System.out.println("the matrix is");
         for (int i = 0; i < m; i++) {
             for (int j = 0; j < n; j++) {
-                System.out.println(arr[i][j] + " ");
+                System.out.print(arr[i][j] + " ");
             }
+            System.out.println();
         }
     }
 
     public static void main(String args[]) {
         composite obj = new composite(20, 20);
-        obj.isComposite(20);
+
         obj.fill();
         obj.display();
     }
