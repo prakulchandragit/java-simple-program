@@ -23,7 +23,7 @@ public class rearrange {
 
             char ch = wrd.charAt(i);
             if (ch == 'A' || ch == 'E' || ch == 'I' || ch == 'O' || ch == 'U')
-                ;
+
             {
                 vow = vow + ch;
             }
